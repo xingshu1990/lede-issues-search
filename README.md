@@ -1,1 +1,797 @@
-# lede-issues-search
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13815 | 编译错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13812 | 关于N1编译成功后的疑问 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13800 | Intel AX210无线网卡固件与驱动版本不匹配 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13797 | LEDE/OpenWrt oseama 工具中发现的栈缓冲区下溢漏洞 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13791 | rax3000m-emmc编译完没有无线网络 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13785 | bash编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13782 | ath10k 从board-2.bin中获取bdf的头不正确，这是怎么回事 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13776 | IPQ6018 使用最新源码编译，关于NSS驱动问题。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13775 | 西瓜皮v3编译生成的固件，识别不出来任何板子上的物理网口 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13765 | rk3308还没有 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13764 | 树莓派编译出错，，全网搜索没找到解决方案 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13760 | opkg安装的lsblk无法执行 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13756 | 大佬们编译失败，求救！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13753 | Cudy TR3000 5G频段WiFi间歇断开重连 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13752 | 编译的固件后无法更新SSR+订阅 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13746 | Request to Add Support for Sagemcom Fast 5866T |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13745 | 最新源码编译不出来uwsgi |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13743 | 编译nmap出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13742 | k2p 无线2.4g设备未激活 无线未关联，且5g无法从luci界面配置无线参数 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13741 | go_bootstrap版本问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13740 | 最近更新的mwan3重启后起不来 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13734 | 这种硬盘为啥在op里面用不了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13732 | banip luci下显示不出来 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13730 | 光影猫固件打包不成功 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13729 | 作者原版workflow文件，为什么还是编译错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13718 | 请求对Airpi AP3000M 支持 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13717 | 斐讯K3和小米cr6609编译成功后刷入路由器均无法开机 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13714 | spi-nand 闪存型号 GD5F1GQ4xx 启动报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13709 | R5S LTS 最新代码编译固件 LAN 口无法识别 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13707 | IPv4 WAN 状态中显示未连接 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13706 | Photonicat2无法识别usb hub与设备 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13701 | passwall 编译好后还是旧的版本 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13700 | ERROR: toolchain/gcc/initial failed to build. |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13687 | WNDR4300V2自编译固件无法驱动WAN口 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13683 | Phicomm N1编译的固件无法在N1上从U盘启动！！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13681 | 最新的luci-24.10下adblock-fast提示mismatch |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13680 | 防火墙的Fullcone NAT高性能模式和TurboACC 的NAT模式设置冲突 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13677 | N1拉取最新源码编译mac80211出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13663 | filebrowser能正常编译，但是无法运行 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13658 | dhcp静态地址分配不生效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13651 | ZeroTier问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13637 | 斐讯K3路由器不稳定和usb硬盘不识别求助 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13634 | 能不能更新几个插件 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13630 | luci-app-nginx-manager页面问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13597 | 极路由3Pro(C312B) 5G无线不稳定 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13595 | MiniUPnP高级设置无效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13593 | 5.4内核编译 fullconenat-nft 出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13587 | R23 编译 rust 报错问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13574 | 希望加入zm m2的的设备树 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13557 | PCHiFi 数字转盘遥控无法使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13554 | 编译固件默认未选中ipv6但是编译出的固件有ipv6 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13545 | 计划任务bug |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13543 | 希望添加CMCC RAX3000Me支持 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13539 | 有人成功安装并刷入 JDC Ax6600 吗？因为我之前安装并刷入过，但它好像无法工作。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13518 | ipv6设置里没有ra相关设置，能否增加上？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13506 | Turbo ACC 网络加速设置失败，显示禁用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13499 | wan口ip在防火墙已开放协议端口下无法ping通、外部无法访问。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13491 | 小白请教一个关于LuCi-app-软件，排序的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13478 | 新编译的smba4与某些插件定位与1806时不同 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13475 | k2p 双频都不能手动配置mac地址以及某一频mac地址似乎是随机计算的 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13467 | 添加插件strongswan后，打不开。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13463 | design  主题不能使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13461 | firewall4下turboAcc的功能无法使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13437 | Issues Activating Wi-Fi 6 (802.11ax) and Bluetooth on Sige7 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13431 | 编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13430 | 可以支持下rtl8922ae嘛 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13429 | macos m4原生编译问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13421 | Debian12 wsl 工具链编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13420 | 最新编译的固件，dockerman无法访问容器，配置里没有 添加允许访问的接口 选项 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13416 | OpenWrt R24.9.18 X86目前能不能有办法编译老版本固件 方式方法有没有 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13393 | 极路由3Pro(C312B) 用最新源码编译，无法使用有线网口 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13371 | fine3399设备无法启动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13369 | mt7925网卡wifi无法启动（无信号强度无噪声） |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13365 | Banana BPI-R4迅雷下载断流 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13357 | 小米路由器 R3G （MT7621）编译出来 WAN 和 LAN 口下面的灯只亮一个 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13352 | 新编译的固件 没有 shadowsocksr-libev-ssr-local |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13349 | mac m4 芯片编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13343 | wan口老是重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13315 | pve lxc安装openwrt 无法访问后台 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13300 | passwall的上移按钮和下移按钮翻译错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13297 | Node编译出错，OpenSSL新版弃用了某些指令 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13287 | Please remove that entry from $PATH :The relative path 'Files/Common' |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13286 | ssrplus和cshark依赖冲突 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13279 | 日志 EDID block 0 is all zeroes |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13273 | 编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13266 | 编译lede固件修改后台地址编译不生效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13246 | 最新云编译出错！（ vpdpbusd） |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13243 | 请问rk3588的核心板如何编译openwrt |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13235 | luci-app-mwan3helper是否未来还会更新？支持自定义订阅或编辑 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13233 | quectel_QMI_WWAN无法编译 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13231 | 最新版 京东云鲁班AX3000编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13230 | ERROR: package/feeds/helloworld/naiveproxy failed to build |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13229 | ax6s 主分支默认编译后lan接口插入无反应，且无5Gwifi |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13223 | node 编译错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13220 | 编译完设置有问题？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13218 | 希望加入nanopi zero2 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13213 | 编译错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13212 | libdeflate 编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13208 | 小米路由器R3P，刷机后，重启无法运行。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13204 | LEDE最新分支luci openwrt-23.05编译docker页面显示不完整仅显示“配置”页面 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13202 | 打不开luci |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13200 | 编译失败，错误信息：elfutils |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13199 | Release版本中，Netfilter 的NF_INET_PRE_ROUTING钩子收不到LAN口的数据 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13186 | R86S网口号混乱 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13184 | LUCI报错，IPV6 ULA问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13174 | subconverter 编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13153 | DockerMan与ShadowSocksR Plus+不兼容 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13145 | zero3刷了lean固件，reboot命令重启直接死机 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13138 | 光影猫pcie工作不稳定 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13130 | mt76 无线驱动模块在内核6.12中编译出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13125 | serverchan/Server酱没有了，如何手动添加呢？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13124 | 无网环境下编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13119 | 5g 频段wifi缺少频段设置选项 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13117 | nfsd4 cause 6.12 kernel panic |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/13101 | error |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12550 | upnp有规则但不通 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12534 | 小米路由器3g采用闭源驱动编译后wifi没有网速 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12521 | R8157 USB网卡正常识别，但插入网线10秒后崩溃 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12514 | 求助make menuconfig默认配置的已选太多，导致编译固件过大。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12512 | 保存并应用好像有问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12508 | 最近一次package里面的zerotier的pull request commit好像有问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12505 | lede网络诊断的路由查询用ipv4显示ipv6的结果 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12482 | docker 不能拉取镜像 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12478 | 系统启动后docker报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12475 | 编译问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12469 | 添加luci-app-mosdns编译冲突有哪位大佬知道是什么问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12462 | 编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12461 | toolchain/gcc切换到12后ssrp运行不正常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12460 | macos m2下编译树莓派5固件失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12455 | 请大佬帮忙看下 编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12449 | RAMIPS编译btop爆编译器版本错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12447 | 远程桌面无法连接 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12443 | patch的全局vht判断，影响了OpenF 5Pro 的 mt7603中继WiFi6的速度  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12439 | ubuntu24.04.1版本不再支持python2.7 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12438 | SSRP点击标签时有时会报找到不LUCI的目录 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12436 | igc I226-V网卡驱动问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12435 | 发现与CVE-2022-0778类似的同源漏洞 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12433 | bpi-r3编译时构建错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12432 | 6088编译客户端电脑无法获得IP |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12431 | R5S没有与风扇相关的pwm驱动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12420 | E20C 网口灯显示异常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12419 | X86编译后的版本，首页状态，DHCP剩余租期显示异常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12418 | Naive编译错误，crtbeginS.o: No such file or directory |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12414 | 请问openwrt怎么设置纯IPV6方式？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12410 | x64编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12406 | 编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12403 | 编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12395 | 缺少clang后编译报错失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12390 | 自编译的R5S设备固件，开机无法启动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12387 | JDCloud AX6600 闭源驱动固件咨询 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12383 | 使用Ubuntu 24.04 LTS 编译时出错 求大神解答 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12382 | 6.6核心x86系统固件在J4205系统无法启动，同样的固件用在虚拟机上则正常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12379 | RX中的dropped值一直增加 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12373 | RTL8822CE无线网卡无法发射信号 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12372 | 端口转发后无法在路由器本机访问 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12367 | R4S 切换5.15内核编译错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12365 | 编译出来的img转esxi磁盘有问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12350 | 树莓派5 编译gobinet出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12345 | bpi-r3编译docker错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12342 | 带宽监控wrtbmon的Luci好像有问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12338 | 咨询一下大家：coolsnowwolf/lede有可用的asu地址吗？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12336 | x86 最新源码依旧存在重启的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12335 | 状态-实时信息-连接，里面ipv6连接不显示了。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12334 | ax6s wifi只有2.5G 有线访问不了路由器界面 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12330 | redmi-router-ax6000无WIFI信号问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12329 | esxi直通8125b 网卡不定时断网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12324 | 关于ikev2协议支持问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12237 | nginx 问题 (Segmentation Fault) |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12205 | netdata、frp均无法在23.05运行 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12199 | 新编固件Docker 26.1.1正常运行后台日志每分钟报错一次 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12172 | 无线桥接时，当无线客户端的信道为 AUTO 时，同频段的 WIFI 无法启动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12155 | 为什么aria2运行不了呀 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12148 | 切换为luci-23.05发现两个luci-app异常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12144 | mwan3在x86固件上不能正常使用了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12143 | tgt不能编绎 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12138 | nginx 编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12137 | H68k最新固件掉硬盘 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12136 | 最新源码mac80211报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12135 | MT7921 支持 WIFI MESH 不 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12134 | 交换机添加VLAN导致PPPoE拨号失败，VLAN与PPPoE不兼容？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12101 | mwan3 2.11 显示error 15 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12098 | 添加新的型号支持 Linksys WHW01 和Linksys WHW03 V2  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12085 | WAN口重设MAC地址无效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12080 | 最新代码5.15内核编译错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12067 | 编译工具时 .deps/shl_load.Plo找不到问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12055 | 最新源代码编译后CPU load高 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12045 | 编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12027 | 每次刷系统后，docker都需要手动重启一次，否则容器无法运行 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12017 | 无线网卡rtl8812au-ct ，不能download， 编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12014 | 怎么把GCC编译进固件，menuconfig有没有这个选项 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/12000 | Cargo.lock反复编译失败 换了代理依旧报错，L大能帮忙看看吗 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11991 | GL-iNet AX1800无线问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11981 | Apple Silicon target编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11977 | RAC2V1A（Arris TR4400 V2）固件日志报错问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11975 | lan下发ipv6至安卓手机时十几分钟就断ipv6，能否增加IPV6 RA相关设置 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11974 | zerotier把配置文件从持久化分区调到var分区后，自定义行星节点不可用了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11967 | ram3000m接nvme硬盘盒，不支持trim操作。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11965 | 网络--接口--DHCP--高级设置--动态DHCP |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11959 | problem on daemon.err odhcpd1752: Failed to send to ff02::1%lan@br-lan (Address not available) |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11957 | rax3000m QWRT R24.1.24，自带的ftp侦听不了全部IPv6地址 “::”。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11951 | hostapd编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11949 | 信号指示 小bug |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11948 | 最新代码编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11931 | 编译ipq806X系列固件，Turbo ACC插件显示异常。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11928 | 板载+765网卡半夜全部失联 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11927 | CR660X编译出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11925 | 光影猫板载WiFi时断失联 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11924 | 本地编译X64一直出这个错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11911 | 默认编译配置的驱动问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11910 | luci网络-接口显示不全，只显示以太网接口。OpenWrt R22.7.7 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11908 | 20220716分支编译失败，batman-adv、upxhost报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11907 | 请问一下,编译的时候,如何指定openwrt版本,和内核版本呀!!! |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11906 | 不勾选 “保留配置” 升级固件后还是保留之前的配置 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11905 | ZN-M2 刷入后无法启动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11899 | 如何关闭端口回流功能 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11896 | 自编译的openwrt 每天晚上 4-5点都会自动重启. |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11889 | 编译旧分支时出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11888 | nginx+uwsgi 504 Bad Gateway Time-Out |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11885 | 手动添加Wiregurad节点输入本地IP报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11883 | AP8220 QWRT 固件 adblock 插件的黑名单功能,不能正常使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11879 | sdio is not enabled for brcmfmac linux module on rongpin king3399 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11877 | 编译Linksys EA8500时，没有luci-app-turboacc选项 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11873 | 卡在libxslt 编译失败？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11872 | 编译出来的openwrt-x86-64-generic-squashfs-combined-efi.img.gz解压报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11861 | 编译HC5611 mt7603e闭源驱动问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11855 | 同样的配置文件，升级5.4.268版本后内核一直报phy1: brcmf_p2p_send_action_frame: Unknown Frame: category 0x5, action 0x0 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11854 | GL AXT1800 无线驱动问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11852 | vsftpd 不能编译i386平台的 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11848 | 安装依赖报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11847 | perl-xml-parser 这两天一直报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11842 | 小米R3G由于部分插件不再支持MIPS导致的编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11841 | R66s 6.1.73内核下WAN口崩溃 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11837 | xl2tpd在MT7621上断流 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11821 | R2S/R5S/R86S 一天左右就死机 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11802 | 校园网，只有/64的V6地址，按照OP官网NAT66教程无法正常使用IPV6 NAT |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11757 | svn不能用了，大佬们都是如何应对的 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11748 | 编译x86/64时选择hostapd出错 ，请求解决 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11744 | 小米AX3600，编译最后阶段失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11740 | rtw88_core not loaded，built with rtw88-usb module |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11706 | 没编译IPV6的情况下...概览的IPv6 WAN 状态会显示 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11705 | Failed to send SOLICIT message to ff02::1:2 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11702 | 怎样占满整个emmc? |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11700 | 容器资源状态获取异常 NaN undefined / NaN undefined (0%) |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11699 | 能否支持香蕉派R4 banana pi r4 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11698 | ssrplus订阅的机场节点被抛弃 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11690 | deepin系统依赖安装问题，但同样的编译方式在ubuntu 上没有任何问题。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11688 | GL-MT 2500 WAN 端口問題 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11683 | 怎么编译出来 img 文件？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11668 | Photonicat 在 5.15.138 內核版本下，lsusb 無法識別 Quectel 5g 網卡 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11665 | Github Action云编译磁盘不足、编译超时问题解决方案 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11664 | usr/Makefile:82: recipe for target 'usr/initramfs_data.cpio' failed |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11660 | 编译x86/64时出错，应该怎么解决 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11659 | SSR Plus 服务器地址使用ipv6地址无法生效，使用域名可以 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11653 | mac m1 虚拟机编译到openssl时报unsupported ARM architecture |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11651 | 希望加入BCM57810 10 Gigabit Ethernet Virtual Function驱动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11649 | 希望将kmod-ixgbevf设置为默认勾选 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11648 | GL.iNet GL-MT6000，无线网络信道选择auto时，概率性出现无线无法启动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11645 | 兆能M2编译刷入后无限重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11644 | 编译X86出错，请问下这是什么原因 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11643 | 5.15版本mt7621如何超频到1100mhz？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11635 | pass hy2 服务端无问题，最近几个版本都是GOOGLE PING 通，也在恩山找大神看过了，不能解决 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11634 | 求教~编译ROCKCHIP和X86_64的WiFi模块到底应该选择哪些选项？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11632 | m68s plus可以编译成功，但是无法使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11630 | 文档建议：macOS编译时不需要Xcode |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11629 | 如何升级x64固件 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11626 | 无法编译 xfrpc |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11625 | banana pi r3无法编译 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11624 | pcie_mhi模块用不了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11621 | 最新6.1.60 内核 transmission添加任务后假死，web页面打不开 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11619 | ssr+或者passwall添加新节点影响原节点上网的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11618 | 防火墙局部错误：不能找到一部分规则 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11605 | 求助,云编译6小时不够用的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11598 | 编译提示haproxy.ssl出错，请问怎么解决了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11595 | 建议网络共享samba4和36可以选择。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11594 | K3 5.4.257 WIFI失效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11589 | 内部flash引导跳转外部u盘启动的，U盘启动固件编译需要加修改配置吗 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11581 | 希望lede加入CMCC rax3000m （mtk7981）支持 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11568 | 编译失败，错误提示. |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11550 | 如何导入替换成自己config插件？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11543 | 红米AX6000运行一段时间后WIFI可以看到热点信号，但无法连接 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11536 | 解锁网易云色歌曲功能失效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11522 | HC5962没有交换机选项 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11500 | x86最新源码“数据包负载均衡”关闭不了~ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11495 | Wrong with Interfaces when turn on autocore! |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11494 | How to build fw faster? |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11480 | 在线编译空间不够导致失败，之前可正常编译 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11478 | fw3 reload 导致 upnp工作异常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11459 | 网易云解锁失效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11456 | DG1显卡驱动打不上 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11443 | 编译的askey rt4230w-rev9固件，不能用5G wifi |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11441 | Compile Mi 4a gigabit version and report an error |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11439 | 2023新源码编译的x86-64固件启动不了，ehci-pci: irq 23,io mem 0xdff05000 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11438 | lede使用i350 sriov vf网卡做旁路由 ipv6无法ping通任何公网ipv6地址 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11426 | 编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11424 | 无法编译luci-app-cshark，日志如下 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11417 | 诚心请教 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11415 | 光猫断开重连后，N1 盒子无法连通网络，出现 'bpfilter: read fail' |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11414 | 编译X86 6.1.XX时：ath10k-ct出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11411 | 无法编译nodejs |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11407 | 编译完成后固件无法安装 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11406 | Filebrowser编译失败，求指教。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11405 | No page is registered at '/admin/wizard'. |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11399 | 最新源码怎么找不到虚拟机设置项？是取消了吗！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11391 | n100小主机的无线网卡怎么驱动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11390 | xdr6088 每一到两天无线断网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11368 | 最新源码编译cloudflared错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11363 | 最新源码无法编译frpc |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11362 | 小米4A千兆版Ubuntu下报错 2 lede |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11360 | 小米R4A千兆版在Ubuntu下报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11357 | 小米R4A千兆版编译报错R3Gv2 dtb和源码问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11355 | 竞斗云.0云编译后命令报错 block: No \"mount.ubi\" utility available |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11354 | Linksys WRT32X 日志中网口频繁重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11351 | fileassistant这个插件，编译后，不显示文件列表，无法上传 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11349 | SFTP和SSH问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11348 | R5C WLAN灯不亮，LED配置页面没有WLAN配置 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11346 | ZeroTier编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11344 | Luci界面实时速率不能显示 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11333 | uci界面中的保存并应用对应命令行中的什么命令 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11327 | threading-for-backlog-processi.patch function broken |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11318 | luci2 请问怎么样可以自定义免登陆的一个页面，请求帮助 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11317 | frp编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11315 | 编译失败，望大佬们看看得怎么处理？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11312 | openwrt双wan口外网只能访问到低跃点的wan口，如何实现两个wan口都能正常外网访问。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11310 | Unexpected DP dual mode adaptor ID 7f |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11308 | 近期cr660x ap无线速度上限40MB/s |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11307 | 编译几次一直报错。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11305 | 这里打了一堆TCPING使用帮助日志是什么意思 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11295 | wdr 7500 v3  8MB flash 只能编译出测试固件，本地和云编译都一样 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11294 | 路由管理页面打不开显示 Status: 500 Internal Server Error |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11284 | wan重启docker容器报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11278 | compile error |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11275 | 在线编译X86版本报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11272 | 兆能m2自编译固件刷入后无限重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11269 | 均衡负载（mwan3）无法使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11264 | 问下为什么ramips 5.4 5.10切来切去？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11259 | 根据系统日志可以查出断网原因吗？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11257 | 系统重装了 建立环境遇到问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11255 | phicomm K3编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11242 | 延迟越来越高，至今不得不全面改用5.4.113版内核编译固件 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11241 |  QEMU ARM Virtual编译报错了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11224 | 编译带luci-app-pcimodem出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11217 | gcc initial failed |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11211 | 为何编译内核会出现如下警告提示？！会有什么影响吗？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11204 | SFTP和SSH不能使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11203 | K3更新源码，编译后无线不能用了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11202 | Transmission web 界面404 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11200 | x86虚拟机流量分载可能有问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11193 | 使能无线相关组件编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11184 | 电犀牛R66S网口灯不会随网络活动闪烁 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11182 | ipq807x Ax6 更新源码后，“无线”选项消失。wifi不能用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11177 | 编译的固件luci 网络>接口 没有设备选项，无法通过luci配置vlan。请教编译时需要在哪里设置启用。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11173 | 最新编译的不能自动获取ip地址， |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11171 | k2p闭源驱动，5g要做client模式，但是只能扫描到38和40信道，且必须打开强制40Mhz |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11169 | norton 517 无法使用 eth0 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11165 | 模块配置中<M>不能切换成<*> |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11152 | ShadowSocksR Plus+ 设置GFW列表模式无法魔法上网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11150 | r8125不定时出现断线 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11149 | 大佬们好，7621半年前编译的固件可以U盘运行alist，现在不行了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11146 | 关于最新源码编译后红米ac2100问题请教 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11140 | 660X用HelloWorld插件，拨号的时候无法连接外网，DHCP的时候却可以 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11139 | kmod-drm-radeon_6.1.25-1_x86_64.ipk failed to build |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11137 | macOS 编译出错 已经有段时间了 以为会修复  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11132 | mwan3 helper导致dhcp失效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11109 | 还是昨天的问题，修改无线配置会死机 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11097 | libgfortran.so*:No such file or directory |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11094 | 报错  大神看一下 哪里问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11088 | SQM 与 Turboacc 兼容问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11082 | R7800，外网IP无法访问内网端口，已设置端口转发 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11071 | 防火墙不支持ipv6？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11069 | 关于H66K网口灯显示不正常的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11042 | 660x编译出来的固件不能正常使用，直接进不去路由器了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11040 | 极路由4增强版编译出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11039 | BPI-R3 2.5G sfp接口问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11033 | luci-app-birdl-ipv4\t插件无法使用。有人可以修复下吗 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11029 | 兆能m2的无线中继问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11025 | 关于MWAN3添加线路以后按第二次应用的时候会导致卡住，请问有办法解决这个问题吗？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11018 | mt-wifi闭源驱动或者luci界面bug 型号识别错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11007 | 使用tc设置限速会导致断网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11006 | 最近两个6.1.x的内核在N5105上老是崩 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/11001 | 编译小米2100出错，是什么原因？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10984 | RTL8821CU 不能正常工作 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10982 | 内核报错UBIFS error，概览界面bad gateway，重启砖 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10978 | wwan   quectel_srpd_pcie编译失败，具体日志看图 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10976 | 编译6.1时，只要选择kmod-iwlwifi 就报错，缺少依赖。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10971 | openwrt从5.15降到5.4编译失败，希望大佬指点迷津 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10956 | grep -c  /var/log/dnscache.file这是个啥？占用CPU高。。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10952 | rtl8821cu无法驱动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10950 | 求助，ssr plus+ 怎么生成和clash一样的日志呢？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10947 | 周期性出现断流?(可能是统计错误) |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10943 | mwan3版本太老了，能不能升级一下啊，实在太痛苦了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10942 | 网络诊断 选择了 ipv4，结果都是 ipv6 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10940 | 建议默认启用sha512模块 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10929 | 请教如何调出openwrt网关登陆后概览状态页的wan6信息 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10927 | 更新源码后编译naiveproxy无法通过 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10925 | x550-bt2 网卡openwrt无法协商2.5G速率 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10919 | Samba36-Server网络共享，读取视频大文件，路由器NewWifi3-D2死机 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10916 | 看到代码里面有4G modem 支持，请告知如何编译？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10913 | 请教怎么打包emmc固件 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10912 | frpc不工作 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10911 | 求助大神们：关于绿联8156usb网卡 插在r4s 只能半双工 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10907 | 最新版本编译的时候已经选择ttyd终端了，但是网页中找不到 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10906 | 最新编译固件不分配IP，dns也不解析 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10903 | M2 mac 原生系统编译问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10887 | RM2100wifi无法启动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10880 | x86云编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10871 | 编译出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10870 | Mr7350 file  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10861 | 关于vlan的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10856 | SSRP启动NaiveProxy节点一直重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10855 | 好奇问下 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10853 | 正常编译完后，成功。但是amule无法启动。求解？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10852 | miniupnpd 一直报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10835 | ShadowsocksR Plus + 机场订阅时 vless节点无法正常解析 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10834 | v2ray-plugin编译报错 大佬帮看一下 谢谢 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10833 | 请求:openvpn客服端如何导入配置。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10823 | 编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10822 | MT7620 xiaomi miwifi mini frp cpu 100% |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10817 | 编译cjdns失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10811 | php7编译过程仍然出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10795 | SQM QoS与NAT回环的兼容问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10788 | x86无线编译出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10774 | 自编译固件ext4-combined-efi.img，启动异常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10761 | OPVPN Client Upload non exisetent |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10757 | ax201的驱动似乎有问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10753 | kernel panic? |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10751 | 小白  没看明白  也没查到咋解决  帮帮孩子吧 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10748 | 大佬们，这是什么错误？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10740 | ATH79编译出错， |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10739 | LXC容器里面使用aliddns总是报错，请教下如何解决这些奇怪的错误。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10735 | quickassist-c3xxx编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10731 | 5.15.86同config同配置网络问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10727 | 660x编译出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10722 | 最近半个月编译红米AX6000报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10718 | 每5天电信释放ip后，自动重新拨号，WAN获取不到IPv6 PD地址然后断网，要手动点重新拨号才能正常上网，有什么很好的解决办法吗 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10714 | 操作Turbo AAC后频繁报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10693 | openwrt ipv4 和 ipv6 域名解析优先级调换咨询 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10621 | X86 编译报错: cjdns build failed error1； target-x86_64_musl/stamp/.package_compile Error 2 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10599 | BPI-r3 编译问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10586 | 建议：提供VMWare esxi arm Fling编译选项 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10576 | vmdk不支持 esxi8.0 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10569 | 编译一个dropbear 的新版本报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10568 | mt7613 Driver mt7615d: rai0 is not present when using MT Drivers |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10559 | 源码自带的transmission版本太旧，且不能打开web ui页面，换成新版后，页面中的启用功能失效了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10558 | 网页服务是nginx时，升级固件上传失败！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10552 | BPI R3编译出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10546 | K2P无线中继用不了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10541 | at_keyboard.mod missing |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10535 | 网络接口页面数字溢出负数 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10530 | pppoe 拨号宽带测速只能到达百兆 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10525 | 大神推荐用msd_lite代替udpxy |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10521 | 最新源码编译出错，本地和云编译都不能通过！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10520 | softether  l2tp vpn暂时解决办法 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10519 | 最新固件开启广告屏蔽大师无法上网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10511 | 最新源码编译，aria2显示未运行 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10510 | Samba4共享名称、文件目录输入框太小 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10507 | luci-app-mosdns |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10500 | ubnt ER-X 无法驱动eth0网口 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10490 | dnsmasq使用conf-file 不能启动  提示找不到文件 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10483 | ipv6.无法正常分配使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10472 | k2p用开源驱动编译只有5G信号 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10468 | 大佬帮忙看看为什么编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10467 | softethervpn5断电重启配置丢失 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10463 | syncdial单线多拨在5.15上的bug |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10456 | ipq40xx 内核会更新5.15吗？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10452 | 和目AX18添加NSS-ECM-64编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10447 | 网卡偶发断流, 接口重启, 内核日志显示 netifd: segfault |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10433 | dropbear那边更新了一个fix版本，麻烦L大这边能否测试下跟上 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10427 | 求助  请问编译时intel 3168NGW 无线驱动选择哪个选项？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10426 | 编译openssl-qat失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10422 | x86的AX210的iwlwifi驱动出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10386 | softher vpn连不上 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10372 | Redmi AX6000 PPPOE断网重连多次才成功 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10366 | 添加\"OUI\"后，编译出错了，请教解决方法！谢谢！！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10362 | xunlong_orangepi-r1-plus-lts 无法编译通过 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10357 | 各位德华彦祖帮看看有个网口老断流重启是怎么回事 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10353 | x86编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10348 | x86 编译失败,求指教 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10345 | esxi 443端口转发失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10344 | 请问如何默认关闭lan口的dhcp服务 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10323 | x86 编译报错 ，请大佬看看啥情况  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10317 | 重启后文件只读了，但是执行  mount -o remount rw / 可解决 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10313 | 启动时打kernel info和内核栈，是什么问题？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10298 | 执行make defconfig出现错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10296 | rockchip-5.15 drm出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10293 | x86编译出错  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10277 | Newifi D1编译选nginx+ssl后会死机 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10271 | K3 内核日志和系统日志都不停出现些，正常吗？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10267 | luci “网络-接口”页面缺失“设备”标签页 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10249 | X86 出现daemon.err uhttpd2999: sh: out of range |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10241 | 红米AX6000 打开数据包负载均衡时，大带宽吞吐会暂时断网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10238 | 有大量daemon.notice miniupnpd |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10226 | MT7621 工具链编译出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10221 | 使用nginx时，Turbo ACC插件获取状态502 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10211 | 每次PPPOE拨号后会自动修改防火墙WAN接口规则 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10194 | 建议使用 Ninja 作为编译后端 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10184 | ATH79编译出错5.15 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10167 | nmbd老是打印一堆乱七八糟Log |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10152 | WSR-2533DHPL固件编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10151 | K3编译出的固件刷入后有线LAN WAN口都无法使用，无线正常，有大佬知道怎么回事吗？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10144 | 广告屏蔽大师 Plus+冲突 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10095 | ESXi下虚拟机直通8125网卡不定时断网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10094 | 友华的wr1200js（cpu：7621）问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10075 | rtw88模块加载失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10043 | 群晖的wireguard用此固件无法使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10029 | MR7350 机型 SMB掉速严重 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10028 | 负载均衡未能正确支持VPN，显示接口禁用（但实际部分能用） |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10024 | 802.11k配置的两个子选项不生效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10019 | nct6775报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/10010 | 更新固件经常掉配置，密码恢复默认 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9981 | 小米路由3启动不了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9978 | x86云编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9977 | pppd 会crash kernel @5.19 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9968 | Hyper-V虚拟OpenWrt主机无法通过Hyper-V管理器关机 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9956 | Support Breed Mode |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9954 | 请求TCP DNS 53端口时end of file |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9947 | 最新源码 stamp 编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9945 | 关于在编译时出现  go download xxx.mod dial tcp: 172.xxx.xxx.xxx i/o time out 错误的解决方法 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9934 | 就想做个调查，8125B的同学你们使用有问题吗？有问题的说说自己网络环境 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9895 | R68s 国际版固件不间断断网  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9881 | mt7621 /proc/net/dev 统计异常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9871 | 新固件重启后无线被禁用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9867 | Intel82576双口网卡其中一个网口报错igb 0000:01:00.0 eth0: Reset adapter |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9864 | 挂载硬盘的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9862 | 6in4隧道无法正常重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9858 | 无法支持到4G网卡~ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9856 | DDNS不支持no-ip.com的IPv6域名更新 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9855 | 新编译的固件x86 运行coremark永远不会停止 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9832 | eth0网口无法使用，插线灯不亮 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9814 | lean大，这个功能可以加上嘛，挺需要的 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9802 | ACRH17使用最新潘多拉固件时不定时断网后自动恢复 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9791 | 更换了LAN地址，重连后访问网关WEB会跳转错误地址 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9755 | 自行编译固件出现日志提示 Failed to load DMC firmware i915/kbl_dmc_ver1_04.bin |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9704 | 想通过hosts屏蔽一些电视开机广告，但是似乎没有起作用，是哪里操作不对吗？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9697 | 希望可以提供内网设备的IPv6动态域名解析。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9690 | 编译支持相关问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9688 | 大佬们，请看下这里的值是否正确，谢谢 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9680 | 关于这次n2n 3.0的update |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9677 | 竞斗云P&W R619AC 128M更新5.4.199后，lan1口无法获得地址，其他口正常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9676 | 咨询 ssr影响steam自动登录 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9672 | 225网卡断了之后2.5G识别100M |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9645 | 开启shortcut-fe后WAN>NAT到内网的OpenVPN服务器的UDP连接有问题，会导致证书验证不通过 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9637 | 为什么从lan侧出去的流量没有经过iptables？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9631 | 周日编译小娱Transmission web界面消失 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9598 | x86/64编译make file多种报错，不提示插件冲突，没出现插件相关字段 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9597 | kern.warn kernel: 36777.941983 test 512 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9596 | R22.5.5 开启Shortcut-FE后非LAN网段流量异常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9584 | ramips架构 mt7621核心 zte8820/8820v2机型添加 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9576 | 4530r硬改32M闪存固件如何编译，路过大神麻烦指点 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9575 | luci首页设备logo匹配问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9531 | 编译mikrotik 450g出现的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9481 | 怎么取消这两个固件 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9467 | 关于IPV6代理问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9465 | 重启后WAN口只有百兆 必须要重启5次WAN口才会提示千兆 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9453 | 建议openwrt的packages输出目录定义 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9448 | ssr plus的GFW列表模式下，如何让二级主域名走代理，三级域名直连 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9435 | luci系统进程界面cpu使用率及内存使用率一直为0，不变化 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9427 | 怎样增加自定义 machine 型号名称 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9422 | x86_64 pve虚拟机openwrt时常出现异常上传且伴随着CPU占用率提升至百分之四五十, 断网现象 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9413 | 新源码砍掉防火墙的全锥形NAT了吗 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9409 | 连接无线WIFI的客户端看不到了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9406 | 红米ac2100使用闭源WiFi驱动的时候不能修改lan口设置，那么如何关闭ipv6 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9388 | ttyd到底怎样配https访问？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9382 | dw33d编译完5.x固件breed提示固件无法识别，底包还是nor？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9375 | 希望可以增加GL.iNet GL-SF1200路由器的支持 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9374 | 编译失败报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9372 | 环回访问没有做加速优化 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9371 | I225-v B3 2.5G口老是断流重启是怎么回事？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9370 | 怎么用nginx代替uhttpd? |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9356 | 多Wan 多DDNS问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9351 | 星际宝盒无法挂载 Extroot (/overlay) 及解决方案 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9350 | 最新源码编译报错，没搜索到相关问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9349 |  kern.debug kernel: test 512 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9346 | 编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9344 | x86版本机器经常无故重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9338 | ipv4和ipv6冲突并且ivp4间歇断开 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9332 | 疑是 Turbo ACC 网络加速 引起磁盘错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9330 | 请教一下pptp连上之后为什么无法访问国内网站？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9326 | 配置不能保存，重启配置丢失 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9324 | 子选项配置中未选中的项目仍会按照全选状态构建依赖 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9323 | 关于ShadowSocksR Plus+ 允许不安全连接的选项 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9322 | WAN的转发是否有performance issue? |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9320 | batman-adv导致编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9319 | 现在编译默认5.15版本了么，怎么改其他版本.谢谢回复 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9317 | 4a-gigabit不启动，反复重启。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9313 | cortex-a7架构于liboil处失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9302 | socat is different from the conffile in the new package |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9300 | 重新编译了，mi-router-4a-gigabit还是不启动， |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9298 | 小米路由4a百兆版MT7628AN大流量断网，wifi信号消失 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9291 | ASUS RT-ACRH17_batman-adv报错信息 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9290 | 5.15内核编译mt7915出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9289 | R7800 NSS 与 NAT ipv6冲突 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9288 | 编译完刷入后，网速满载会死机 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9286 | 询问关于 fstab 做过的修改 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9284 | 编译mi-router-4a-gigabit固件成功，但刷了不启动，附上TTL |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9281 | adguardhome设置页面报404 page not found错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9278 | 发现一堆SMB的日志 寻求解决办法 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9272 | softether V4.x编译不成功 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9262 | 任子行SURF G-NAT200有时候会重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9233 | mjpg_streamer Error |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9209 | 设备列表里没有京东云路由的选项 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9207 | 路由器每天晚上自动重启（断开）无线 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9190 | 编译固件加入luci-app-hd-idle编译没有问题，但硬盘不能休眠，这几天编译的固件都有这个问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9181 | 树莓派4上缺少bcm2835-codec bcm2835-isp |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9180 | bandwidthd依赖冲突 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9166 | 31号的代码在x86上导致mwan3的接口起不来了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9161 | 请问一下，在云编译出现问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9158 | macos编译内核镜像报错Segmentation fault: 11 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9146 | 最新X86模式编译后ipsec服务器问题（ipsec能连不能上网，L2TP连不上） |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9145 | macOS 12.3下编译crpytodev-linux编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9136 | 默认配置就选择 Subtarget (AMD Geode based systems)  编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9132 | GITHUB ACTIONS 云编译失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9120 | 小米路由器4a千兆版只能刷kernel包 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9117 | WAN拨号，VLAN划分 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9116 | ipv6 udp连接会在10分钟后出现问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9068 | Bug report  in Fast-classifier w/o NAT upload shaper not work |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9062 | 哪位大神可以帮忙，固件编译出来的固件开机后无法使用! |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9052 | luci-proto-manager在界面中无显示，包已编译进固件了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9045 | 怎么编译内核版本是5.4 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9032 | R2C编译后wan口没反应 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9027 | ERROR: package/feeds/packages/node-yarn host failed to build. |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9023 | 如何修正网口顺序 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9014 | 大佬，ath79里的机型编译出来的固件USB无法使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9005 | 去除dropbear并编译openssh-server时，sshd_config未更改导致root用户无法sshd登录 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/9004 | ISP释放ip后自动重连成功，但是没有互联网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8982 | 请教一下，shadowsocks-libev-ss-local编译错误如何解决 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8980 | 新编译的2个版本固件，保留配置升级出现问题！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8946 |  无法编译出32位X86不是efi的固件，只能编译出带efi的固件。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8937 | 最新的lib32gcc1 包已变更为lib32gcc-s1 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8931 | 2月起编译的网件R7000固件无法使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8921 | 如何实现新版dsa驱动的vlan界面 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8920 | rt4230w rac2v1k 性能问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8919 | 反馈个暂时无法定位是谁的问题的情况，与openclash有关 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8918 | WAN口(pppoe)手动重新连接，带动其他接口一起重新连接 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8917 | 用几天，系统和内核日志一直错误提示，网不能用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8911 | Zerotier 只要开启NAT功能 无法正常启动 `host/network ' not found` |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8910 | 5.15内核 ntfs3模块 crash：空指针引用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8901 | docker-man桥接，容器网络丢失 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8899 | Newifimini隔一段时间会断网，日志显示ethernet eth0: transmit timed out |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8881 | 请教如何选择编译的显示语言和时区？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8869 | smrtdns设置完成后用nslookup命令，显示DNS超时  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8861 | 更新固件提示500 内部服务器错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8857 | sftp报128错误是什么原因？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8855 | r7800 nss报错 WAN口断线 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8833 | 编译k2路由器固件时出错，请教大神如何解决，谢谢！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8823 | docker自建网络父接口问题，docker固定ip问题，自建网络流量不走ssr+ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8797 | HC5861编译出来没有5G |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8796 | 哪位大神可以帮忙，最新固件编译出来的固件开机后无法使用! |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8789 | ps3netsrv4771: segfault at 400040 ip 0000000000418fbf sp 00007fff24e3f800 error 4 in ps3netsrv401000+1e000 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8787 | 路由器重启后wifi不会默认打开 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8781 | N6005主机反复不定时自动重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8777 | dnscache占用百分百 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8773 | 现在x86的系统日志 不输出accepted login 之类的web登录日志了吗 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8770 | nlbwmon系统日志显示错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8767 | 强迫症关于概况信息WAN口显示不全的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8765 | 现在默认编译的是php8，用可道云什么的不兼容，这个能换回原来的php么，需要在哪里设置的 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8751 | 条件编译的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8740 | 5.10内核NAT环回似乎失效问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8736 | luci-app-verysync 不能运行（暂时有解决办法） |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8735 | 动态dns没有ipv6 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8726 | 5.10.92 x86-64版本,upnp使用3-4个小时会崩 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8725 | banana-pi-m2u,固件编译出来了跑不起来呢 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8723 | RAC2V1K experiences 2.4G losing and unexpected rebooting when manage device via 5G wireless |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8722 | newifi-d2，lan口不下发IP，但是wlan口一切正常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8710 | 5.15编译错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8703 | 每次刚开机wireguard连接到路由器不过ss |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8698 | pve下安装openwrt无法保存配置 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8687 | 使用make kernel_menuconfig命令后，如何生效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8677 | 近期的源编译的r7800 固件 2.4G 速率慢 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8675 | 大佬，ath79里的机型编译出来的固件好多无法启动？？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8667 | Turbo ACC启动dns缓存后再停止运行，但仍处于运行状态，系统日志无记录！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8664 | R7800刷入后启动时间超长 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8659 | Add support for Xiaomi Redmi AX5 AX1800 RA67 (DVB4252CN/DVB4258GL) IPQ6018/AP-CP03-C1 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8655 | 求助，最新内核编译完成后无法启动，提示can't find valid f2fs filesystem in 1th superblock |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8653 | lede系统路由器无法从源更新，是证书问题，求解决方法。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8643 | 在SSR选了GFW，怎样登录微软中国不用经代理。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8636 | PHP8启动错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8632 | 有线网口频繁上下线 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8627 | 路由器获取ipv6有问题，不知道是什么原因。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8622 | luci-app-cpufreq设置里边只有performance模式 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8620 | 网易云解锁，go版与node版切换时保存应用不了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8596 | qbtorrent无法启动。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8592 | cmGeneratorTarget Error，bootstrapping make错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8582 | 5.15选择编译kmod-iwlwifi报错，5.10没问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8569 | 可道云在5.15内核下无法工作 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8560 | E8350 v1固件编译成功，无法刷入 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8541 | x86软路由报 Netlink receive failure: Out of memory |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8535 | CIFSD/KSMBD共享新建和编辑EXCEL报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8532 | 请问为什么没有/etc/congif/wireless文件呢 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8521 | 这个怎么开启TPM2.0啊，通过将TPM芯片连接到树莓派gpio引脚上 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8520 | 咨询个多线多拨的问题，我认为它不应该成功才对，求大佬帮忙解答，有固件bug无关 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8503 | 启用FullCone-NAT的选项，勾选后生效，但是重启后就不生效了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8499 | nat回环突然失效了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8490 | 将LEDE作为网关后，微信仅能收发文字消息 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8489 | 目前国家严打教培业，请问佐大的OpenWrt培训班受影响嘛？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8486 | Inter I225-V 2.5G问题，希望能得到重视。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8478 | n2n 3.0上了，但是luci app还没跟上，luci UI端能优化否适配一下？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8474 | OpenWRT的IPSec客户端连上VPN后无法让LAN口的电脑走VPN流量 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8472 | easymesh编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8471 | Chinese language in mt7615 drivers |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8453 | 最新源码编译的luci-app-easymesh的v1.9版本，开启后会发生内核报错。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8451 | 最新编译的固件Apple AirPlay 2 无损音频接收服务器无法使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8450 | 同时编译 qemu-ga 和 open-vm-tools 出错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8438 | 请问 ttyd 如何在https下访问？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8437 | 3965U掉网口内核报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8432 | 最近mt7620和mt7621的多个机型都有大流量断流出现time out超时问题，希望大佬处理下 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8420 | x86版对esxi直通的i350支持有问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8419 | xtables-addons 在线编译报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8407 | 小米路由器3的mt7620a，刷最新源码默认生成的固件，隔几分钟就断网一次，有线无线都断。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8381 | X86软路由中端口转发，部分有效，部分失效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8371 | ipv6导致每30分钟重启防火墙 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8360 | 无法安装在虚拟机上面吗 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8359 | 红米 ac2100 lan口设置修改影响无线 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8343 | 请问sqm插件不填写上传下载速度，能有流控效果吗 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8342 | 大佬帮忙解决一下，编译过程中总是报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8338 | ipv6 ddns更新问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8336 | AX9000 wifi丟失三頻  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8332 | K2T编译后无限重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8322 | 挂载点失效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8319 | Redmi AC2100 WEB界面修改LAN保存后会出现WiFi不能自动启动 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8266 | r8168运行一段时间断网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8260 | x86固件 sftp翻车 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8252 | 32位编译，netdata无法工作，显示错误 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8239 | 数据类型溢出，辛苦开发者看到帮合一下代码，thx |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8230 | 总览页面 控制台报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8229 | HiWiFi HC5962 有时候自动重启的问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8221 | mt76x2u usb网卡 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8219 | 请问海外用戶回国模式怎么设置 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8201 | PPPOE自动重拨WAN口假死，必须要手动重拨一次才能正常联网。请求大神帮忙看看，谢谢！ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8200 | wan无法连接上游光猫 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8192 | 系统日志刷屏 ethtool: bad command line argument(s) |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8191 | Newifi3的WIFI問題 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8190 | 优酷路由宝，YK-L1编译成功后，路由器不能保存配置信息，重启后配置恢复默认 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8166 | 当lan口不使用桥接，直接使用物理接口时， luci获取不到lan口接口状态数据 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8165 | bcm53xx   k3编译5.10.76内核固件报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8160 | mt7621莫名重启或死机，请帮忙看下日志 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8159 | \"状态/概览\"页面-网络信息显示不正确 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8145 | CR660x丢失网口连接 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8141 | MT76x8最新版不定时重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8129 | 我刷了lede固件以后，修改breed中的RF1的mac，修改完进不去luci界面了，有线网络和无线网络正常连接 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8127 | 大雕老大，能升级一下您那个openwrt仓库的17.01分支的docker吗？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8116 | 能不能更新一下v2ray_server? |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8085 | 报错：客户mac地址为空 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8070 | 小米路由器4c 编译生成的固件不能用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8056 | 高负载r8125喜欢掉线问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8052 | 请教7621+7612+7603机器网络不正常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8050 | K2P无线中继/5G无法启用问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8046 | 使用MT7620芯片的小米Mini刷入最新lede后会 有线、无线 一起间歇性断网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8041 | 请教如何查看哪个插件导致了防火墙重启变化 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8026 | 软件包刷新列表失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8011 | Question: How to configure VLAN from luci? |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8006 | OP断网再联上，QEMU虚拟机就无法联网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/8001 | /etc/config/network新增接口 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7986 | docker bridge 无法联网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7949 | Newifi D1 获取不到 WAN IP |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7939 | 编译后tproxy模块丢失 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7938 | luci-app-turboacc会反复修改“忽略解析文件”设置 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7937 | lto/lto.o: file not recognized: file format not recognized |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7926 | Dnspod.cn 的 DDNS错误且提示原因为空 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7916 | 阿里DDNS主域名前面需要加@才能成功，但是注释的说法不用加 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7911 | luci-app-xlnetacc迅雷快鸟登录异常，需要输入图形码 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7903 |  open-vm-tools  & qemu-ga 同时编译报错，但 opkg install 又能同时安装 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7894 | 新版的sfe导致防火墙过滤关键字失效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7885 | arm-qemu版本编译成功,但是lan接口请求异常 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7861 | 树莓派4B 外接USB的mt7601u 网卡无法正常使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7856 | SSR Plus +  订阅丢弃节点 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7849 | SSR Plus + 用Trojan节点无法打开youtube，也打不开谷歌。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7847 | Feature requestQCAqca-nss support for proto-bonding |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7831 | make /var persist 开启后dnsmasq-mwan3启动失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7830 | 额外的HOSTS不起作用了。。。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7829 | 660X一天重启很多次，越来越频繁了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7824 | 概况页不显示ipv6 wan状态了。。。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7796 | 使用github actions cache缓存工具链， 加速你的云编译项目，让你做更快的男人 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7795 | 管理员登录密码修改无效 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7794 | k3编译出问题 5.10.61 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7792 | 小米路由器4 交换机 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7787 | WIFI 获取不到 IPV6地址 ,LAN可以 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7785 | j4105 4口211网卡断网 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7761 | 设置DMZ主机失败 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7759 | 5.4.142内核网络接口反复重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7751 | 360 c301路由（ath79）内核日志jffs2大量报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7746 | 安装 nginx-ssl 提示报错，其依赖组件 nginx-util 无法使用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7732 | 在树莓派4中用引脚控制关机，不起作用 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7728 | BUSYBOX一直报错 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7717 | 运营商的 DNS 域名劫持 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7715 | 这两三个月编译出的6IN4都有问题 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7708 | 什么时候能更新 mt7615驱动到5.0.5.1？ |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7707 | 编译入docker后,DDNS内网无法访问 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7706 | iOS滚动选项器选择自定义后无法输入 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7698 | 关于 Orange Pi R1 Plus  CPU风扇控制 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7696 | 系统日志全是 daemon.err uhttpd3799: RTNETLINK answers: File exists  |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7689 | 660x出现重启的情况，突然就WiFi都不见了，过一会又链接上了 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7651 | 科学上网故障转移困惑 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7647 | AX6的lan接口改wan口不能正常通信 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7646 | 希望x86也增加AC58U那种调整cpu调度模式的luci。 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7627 | CR660X有时候会突然重启 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7582 | rac2v1k  256M nand  7.31号的最新源码编译启动慢 |</br>
+| https://api.github.com/repos/coolsnowwolf/lede/issues/7571 | 前天的代码跑在esxi里，突然死机，dhcp挂掉，控制台进不去，不能滚动 |</br>
